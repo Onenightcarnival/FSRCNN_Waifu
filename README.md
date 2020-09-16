@@ -1,4 +1,9 @@
 # FSRCNN_Waifu
+Inspired by Waifu2X which use SRCNN: https://github.com/nagadomi/waifu2x <br/>
+Waifu2X web app: http://waifu2x.udp.jp/index.html <br/>
+Replicating the FSRCNN model (faster and lighter version of SRCNN) in this paper: http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html <br/>
+Trained on 1000 high resolution images from https://pixiv.net <br/>
+ 
 Input image: <br/>
 ![alt text](https://github.com/Onenightcarnival/FSRCNN_Waifu/blob/master/input.png)
 
