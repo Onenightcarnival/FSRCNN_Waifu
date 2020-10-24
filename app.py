@@ -11,7 +11,7 @@ def upscale(img, model):
     buff = np.asarray([img])
     raw = model.predict(buff)[0]
     cv2.imwrite("temp.png", raw)
-    dst = cv2.fastNlMeansDenoisingColored(cv2.imread("temp.png"), None, 5, 5, 7, 17)
+    dst = cv2.fastNlMeansDenoisingColored(cv2.imread("temp.png"), None, 10, 10, 7, 21)
     return dst
 
 def get_image_download_link(img):
