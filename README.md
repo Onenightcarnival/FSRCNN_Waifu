@@ -15,5 +15,5 @@ Denoise, this is what we want: <br/>
 ![alt text](https://github.com/Onenightcarnival/FSRCNN_Waifu/blob/master/2x%20up%20input.png)
 
 # Run as Web App
-required package: streamlit, tensorflow, opencv-python, keras <br>
+required package: streamlit, tensorflow, cv2, keras, PIL <br>
 In terminal, run "streamlit run app.py" <br>
